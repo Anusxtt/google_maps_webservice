@@ -1,7 +1,7 @@
 name: google_maps_webservice
-description: Google Maps Web Services [API](https://developers.google.com/maps/web-services)
-version: 0.0.21-nullsafety.5
-homepage: https://github.com/lejard-h/google_maps_webservice
+description: Google Maps Web Services [API] (modernized for Dart 3 / http 1.x)
+version: 0.0.20-modern.1
+homepage: https://github.com/Anusxtt/google_maps_webservice
 
 environment:
   sdk: ">=3.4.0 <4.0.0"
@@ -21,3 +21,4 @@ dev_dependencies:
   build_runner: ^2.4.0
   json_serializable: ^6.7.0
   test: ^1.25.0
+  coverage: ^1.10.0
